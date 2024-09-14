@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Styled Form Example</h1>
+      </header>
+
+      <div class="form-container">
+        <form id="user-form">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="gender">Gender:</label>
+          <div class="radio-group">
+            <label
+              ><input type="radio" name="gender" value="male" /> Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="female" /> Female</label
+            >
+            <label
+              ><input type="radio" name="gender" value="other" /> Other</label
+            >
+          </div>
+
+          <label for="interests"> Interests:</label>
+          <div class="checkbox-group">
+            <label
+              ><input type="checkbox" name="interests" value="coding" />
+              Coding</label
+            >
+            <label
+              ><input type="checkbox" name="interests" value="design" />
+              Design</label
+            >
+            <label
+              ><input type="checkbox" name="interests" value="gaming" />
+              Gaming</label
+            >
+          </div>
+
+          <label for="country">Country:</label>
+          <select id="country" class="country">
+            <option value="">Select your country</option>
+            <option value="us">United States</option>
+            <option value="in">India</option>
+            <option value="uk">United Kingdom</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <footer>
+        <p>Styled Form Demonstration</p>
+      </footer>
+    </div>
+  </body>
+</html>
