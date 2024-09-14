@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms with Select and Radio Buttons</title>
+  </head>
+  <body>
+    <form action="#submit">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Enter your name" name="name" />
+      <br />
+      <p>Select country</p>
+      <label>
+        <input type="radio" name="gender" value="India" />
+        Male
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="gender" value="India" />
+        Female
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="gender" value="India" />
+        Other
+      </label>
+      <br /><br />
+
+      <label for="country">Country:</label>
+      <select name="country">
+        <option value="usa">United States</option>
+        <option value="china">China</option>
+        <option value="india">India</option>
+        <option value="japan">Japan</option>
+        <option value="germany">Germany</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
