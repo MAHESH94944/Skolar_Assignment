@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #f4f6f7;
+  --font-color: #2c3e50;
+  --font-size-base: 16px;
+  --padding-base: 10px;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--font-size-base);
+  background-color: var(--background-color);
+  color: var(--font-color);
+  padding: var(--padding-base);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--padding-base);
+  text-align: center;
+  border-radius: var(--border-radius);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.content {
+  margin: 20px 0;
+  padding: var(--padding-base);
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 1.5rem;
+  color: var(--font-color);
+}
+
+button {
+  padding: var(--padding-base);
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--padding-base);
+  text-align: center;
+  border-radius: var(--border-radius);
+}

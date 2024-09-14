@@ -1,0 +1,33 @@
+body {
+  background-color: #d7dbdd;
+
+}
+
+.heading {
+  background-color: #e5e7e9;
+}
+
+#heading-1 {
+  background-color: #f6ddcc;
+  color: #616a6b;
+}
+
+#main-heading{
+  background-color: #616a6b;
+  color: #fcf3cf;
+}
+
+
+.common-list{
+  background-color: bisque;
+
+}
+
+.first-para{
+  background-image: url('image2.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  height: 50vh;
+  width: 100vh;
+}
